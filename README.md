@@ -91,10 +91,11 @@ model ensemble
 ```
 best_model_path =  '/densenet121.pth'
 model = timm.create_model('densenet121', pretrained=True, num_classes=3, in_chans=1)
+model.load_state_dict(torch.load(best_model_path))
 
 best_model_path1 =  '/efficientnet_b3.pth'
 model1 = timm.create_model('efficientnet_b3', pretrained=True, num_classes=3, in_chans=1)
-
+model1.load_state_dict(torch.load(best_model_path1))
 ....
 
 for img, idx in _val:
