@@ -19,7 +19,7 @@ If you use our code please cite: [Segmentation, Classification, and Quality Asse
 
 nnUNet basic tutorial: [[pytorch] nnUnet for 2D Images Segmentation](https://blog.csdn.net/qq_38736504/article/details/125494224#t0)
 
-The following is an example of using nnUNet for label1 segmentation, please note that we need to do the same for label2 and label3 to get the segmentation results of all three labels.
+The following is an example of using nnUNet for label1 segmentation. Please note that we need to do the same for label2 and label3 to get the segmentation results of all three labels.
 
 #### data preparation
 
@@ -51,7 +51,7 @@ To alleviate over-segmentation of label3, we use ***Classifier_label3.py*** to p
 
 ### 2.1 5-fold_cross-validation_training
 
-To verify the performance of the different models, we used five-fold cross-validation to test six architectures (17 backbones): ResNet, DenseNet, EfficientNet, VGG, ConvNeXt, Swin-Transformer.   
+To verify the performance of the different models, we used five-fold cross-validation to test six architectures (17 backbones): ResNet, DenseNet, EfficientNet, VGG, ConvNeXt, and Swin-Transformer.   
 
 ***task2_data_fold.xls*** and ***task3_data_fold.xls*** are our 5-fold cross-validation split datasets. Files ***Task2_vgg19*** and ***Task3_efficientnet_b2*** are two examples of our backbone training.    
 
@@ -76,7 +76,7 @@ We hard-vote the hard-to-classify data based on the results of 5-fold_cross-vali
 
 ## 3. Task 2&3 - Inference
 
-For the model weights for task two and three, you can download them at the following links: [model weights](https://drive.google.com/drive/folders/1p7-65yVdulbRUwMH5FQPF7qLatfwsMQx?usp=sharing)
+For the model weights for tasks two and three, you can download them at the following links: [model weights](https://drive.google.com/drive/folders/1p7-65yVdulbRUwMH5FQPF7qLatfwsMQx?usp=sharing)
 
 ### 3.1 Task2 
 ```
