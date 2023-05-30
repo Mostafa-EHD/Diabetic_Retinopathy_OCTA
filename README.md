@@ -5,7 +5,7 @@ Here's the [LaTIM](https://latim.univ-brest.fr/) team's solution in the [DRAC 20
 
 We are the **TOP 5** of the segmentation task, the **TOP 4** of the quality assessment task, and the **TOP 3** of the DR grading task. 
 
-If you use our code please cite: [Segmentation, Classification, and Quality Assessment of UW-OCTA Images for the Diagnosis of Diabetic Retinopathy]().
+If you use our code please cite: [Segmentation, Classification, and Quality Assessment of UW-OCTA Images for the Diagnosis of Diabetic Retinopathy](https://link.springer.com/chapter/10.1007/978-3-031-33658-4_14).
 
 --- 
 
